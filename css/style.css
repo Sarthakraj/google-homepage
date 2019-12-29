@@ -1,0 +1,47 @@
+body {
+    color: #555;
+    padding-top:20px ;
+}
+
+.navbar img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navbar ul li {
+    display: inline-block;
+    
+}
+
+.navbar {
+    float:right;
+}
+
+.clear {
+    clear: both;
+}
+
+.center input {
+    padding: 10px 200px;
+    border-radius: 10px;
+    
+    margin: 0px auto 20px auto;
+    display: block;
+    background-color: #fff;
+}
+.logo {
+    width: 300px;
+    margin: 150px auto 40px auto;
+}
+
+.buttons {
+    margin: 0px auto 10px auto;
+    width: 300px;
+}
+
+.buttons button {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
