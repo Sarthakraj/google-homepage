@@ -93,6 +93,7 @@ footer div {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+
 }
 
 footer div ul {
@@ -122,4 +123,22 @@ footer div ul {
 
 .search:hover {
     transform: skewY(10deg);
+}
+
+
+@media(max-width: 460px) {
+    footer div ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    footer {
+        height: 10%;
+        position:absolute;
+        bottom: 0;
+    }
+    .left {
+        border-right: 1px solid rgba(136, 133, 133, 0.185) ;
+    }
+
+   
 }
